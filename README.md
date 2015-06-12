@@ -9,14 +9,14 @@ Add it to your `book.json` configuration:
 
 ```
 {
-    plugins: ["gitbook-plugin-expandable-chapters"]
+    plugins: ["expandable-chapters"]
 }
 ```
 
 Install your plugins using:
 
 ```
-$ npm install gitbook-plugin-expandable-chapters
+$ gitbook install
 ```
 
 ### Configuration
@@ -26,7 +26,7 @@ There is no configuration needed at the moment, can be left empty.
 ```
 {
 	"pluginsConfig": {
-		"gitbook-plugin-expandable-chapters":{}
+		"expandable-chapters":{}
 	}
 }
 ```
