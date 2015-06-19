@@ -30,3 +30,6 @@ There is no configuration needed at the moment, can be left empty.
 	}
 }
 ```
+
+### See also
+Maybe you will find https://github.com/poojan/gitbook-plugin-toggle-chapters also useful?
