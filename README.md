@@ -1,7 +1,7 @@
 #Expandable chapters for GitBook
 ==============
 
-This plugin adds an icon to each chapter, that has a child and css states for the child list to collapse/expand ones.
+Tiny change to the expandable-chapters plugin from https://github.com/DomainDrivenArchitecture/ to use smaller arrows.
 
 ### How to use it?
 
