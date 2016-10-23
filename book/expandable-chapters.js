@@ -17,6 +17,13 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
             toggle($(e.target).closest(CHAPTER));
           })
       );
+    // hacky solution to make spans be clickable when used in combination with "ungrey" plugin
+    $(CHAPTER + ' > span')
+      .on('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            toggle($(e.target).closest(CHAPTER));
+        });
     expand(lsItem());
     //expand current selected chapter with it's parents
     var activeChapter = $(CHAPTER + '.active');
