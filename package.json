@@ -1,15 +1,15 @@
 {
-  "name": "gitbook-plugin-expandable-chapters",
-  "description": "Expandable chapters for convenient navigation within a gitbook",
+  "name": "gitbook-plugin-expandable-chapters-interactive",
+  "description": "The Gitbook Plugin to enable the expandable sidebar more interactive.",
   "main": "index.js",
-  "version": "0.1.7",
+  "version": "0.1.0",
   "engines": {
     "gitbook": ">=0.4.6"
   },
-  "homepage": "https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters",
+  "homepage": "https://github.com/Rokid/gitbook-plugin-expandable-chapters-interactive",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters"
+    "url": "https://github.com/Rokid/gitbook-plugin-expandable-chapters-interactive"
   },
-  "license": "Apache 2"
+  "license": "MIT"
 }
